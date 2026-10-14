@@ -1,10 +1,10 @@
 {
   "producto": "prisma",
-  "version": "1.0.3",
-  "fecha": "2026-10-13",
-  "notas": "# Prisma 1.0.3 — novedades\n\n## Lo que va a notar la óptica\n\n- **Recuperar contraseña sin depender del administrador:** en la pantalla de\n  inicio hay un enlace *¿Olvidaste tu contraseña?*; cada usuario genera sus\n  6 códigos de un solo uso en **Mi perfil → Códigos de recuperación**.\n- **Botón de actualizar en el tablero:** si hay una versión nueva publicada,\n  el administrador ve un aviso con botón para descargarla y aplicarla sin\n  salir del programa (con respaldo automático).\n- **Pedidos venci",
-  "zip": "Prisma-1.0.3.zip",
-  "url": "https://github.com/Juanesinfante/prisma-actualizaciones/releases/download/v1.0.3/Prisma-1.0.3.zip",
-  "sha256": "0f0f15d1cf1f6b804a4cd21a74681ae3348cc30db2b778e0b1959cc109b1aaa1",
-  "bytes": 722006
+  "version": "1.0.4",
+  "fecha": "2026-10-14",
+  "notas": "# Prisma 1.0.4 — novedades\n\n## Lo que va a notar la óptica\n\n- **Actualizar con un solo clic:** el botón ahora dice *Actualizar ahora* y\n  hace todo seguido (descarga, instala y reabre solo). Ya no hay segundo paso.\n- **Sin configurar nada:** el programa ya sabe dónde buscar versiones nuevas,\n  incluso en instalaciones que llevan meses sin tocarse.\n- **Si algo falla al actualizar,** muestra el motivo y un botón Reintentar\n  (antes se quedaba callado).\n\n## Técnico\n\n- Canal oficial por defecto en e",
+  "zip": "Prisma-1.0.4.zip",
+  "url": "https://github.com/Juanesinfante/prisma-actualizaciones/releases/download/v1.0.4/Prisma-1.0.4.zip",
+  "sha256": "52971894d5d0485757427749bc1845762f346f7eafe9b4081a2ab028b7baad62",
+  "bytes": 722270
 }
