@@ -1,10 +1,10 @@
 {
   "producto": "prisma",
-  "version": "1.0.5",
-  "fecha": "2026-10-23",
-  "notas": "# Prisma 1.0.5 — novedades\n\n> Seguridad reforzada: contraseñas más fuertes para todos los empleados, protección contra intentos repetidos de inicio de sesión, la contraseña ya no queda en los registros de soporte, y si una actualización falla el sistema se restaura solo y lo avisa en pantalla.\n\n## Lo que va a notar la óptica\n\n- Al crear un empleado o cambiar una contraseña ahora exige mínimo 8 caracteres con una mayúscula y un número (antes se podían crear claves de 6).\n- Si una actualización no termina bien, el sistema vuelve solo a la versión anterior y lo avisa en pantalla: la óptica sigue trabajando y sus datos no se tocan.\n- Detrás: intentos de inicio de sesión repetidos ya se bloquean ",
-  "zip": "Prisma-1.0.5.zip",
-  "url": "https://github.com/Juanesinfante/prisma-actualizaciones/releases/download/v1.0.5/Prisma-1.0.5.zip",
-  "sha256": "ed0fd6eef27375aacad86430901fbc87fbf5373c12b3e046ae9f59b94eb4af51",
-  "bytes": 725646
+  "version": "1.0.6",
+  "fecha": "2026-10-25",
+  "notas": "# Prisma 1.0.6 — novedades\n\n## Seguridad crítica (instalar cuanto antes)\n\n- **Dependencias del servidor actualizadas**: se eliminaron vulnerabilidades críticas y altas en Express y sus dependencias indirectas (body-parser, proxy-addr, ip-address, qs). `npm audit` reporta 0 vulnerabilidades.\n- **Claves de licencia rotadas**: nueva pareja RSA 4096 bits. La clave privada ahora vive FUERA de OneDrive (solo el proveedor la tiene, en un equipo seguro). Las licencias ya emitidas siguen funcionando (validación dual: clave vieja + nueva).\n- **Política de contraseñas unificada**: mínimo 8 caracteres, una mayúscula y un número en todos los caminos (crear empleado, cambiar contraseña, recuperación).\n- *",
+  "zip": "Prisma-1.0.6.zip",
+  "url": "https://github.com/Juanesinfante/prisma-actualizaciones/releases/download/v1.0.6/Prisma-1.0.6.zip",
+  "sha256": "1520fc4430a6aa88d83dd002ea9046378db6914aa8323afd0805e5fcd3b7b962",
+  "bytes": 728359
 }
